@@ -1,0 +1,59 @@
+:root {
+ /* ====== COLORS ========================================
+        ~ creating a color scheme / palette for my site ~
+            • I like to start with picking primary colors (which should be chosen wisely and somewhat semantically connected to a brand / organization / person / whatever is represented on the site; for ex., for bio-products green is the most logical color, and you won't see much purple or pink or even skyblue in bio-brands. Social apps usually have warm and lighter colors that promote cheerfulness and connection, like yellow, red, green and blue; on the other hand, black or brown usually won+t fit this scene.) 
+          • If we have photos of the client, or their logo, we can extract color from those to find our primary color. In fact, any photos or artwork or even some basic graphic material that we want to use on the page can be used as an inspiration; pick the colors out with color-picker and base primary and secondary colors on those.
+          • Or, you can look up the "meaning" behind different colors and choose palette based on that, or write down couple of words that best describe whatever the site represents, and look up colors that corelate to that.
+          • After picking 1 primary color, I decide wheater it will be the only color, and I will use its variations - same hue, different lightness and saturation! Using 5 or 6 different shades of the same color can have same effect as using 2 or 3 different colors altogether (that is, changing hue!).
+          • If I want to use more than 1 color, I will usually look into color-mixing theory, for example, triads or tetrades or complementary colors, or accented analogous colors etc.
+          • When I have primary and secondary colors picked out, I will store them in my projects CSS folder, in a file with all the others variables(.css)
+          • Aside from original colors, I will store a couple of their lighter and darker variants into variables as well, naming them in a way that will explain the color (for example, green-lt-30 is lighter green, 30% opacity).
+          • "Greys" will also be stored in variables, with names such as "black-80", "black-75", "black-70", "white-10", "white-15" and so on; howmany I think will be possibly needed; 
+          • For truely balanced and visually harmonic color scheme, it is good to add a bit of primary colors in greys!
+          • Check contrast ratio! See how whites and greys look on primary colors, as they will probably be the colors of the text; the bigger the ratio, the better. There should be at least one white or grey font color that can easily be read on full-opacity backgrounds in primary colors.
+          • Try out different text and box shadows and store those values also in variables so you can easily try them out while creating the site; it is much easier and faster.
+
+
+  /* RAINY THEME : SOFT PASTELS OF COLD COLORS */
+  --pastel-green:  #569376;
+  --dirty-green:		#6f947a;
+  --rainy-lila:		#819290;
+  --blueish:		#79a196;
+  --greenyellow:	#a2b398;
+  --light-blue:		#a7b8aa;
+  --whiteish-cream:	#d1d2bf;
+
+  --green-ash: #a0daa9;
+  --lavander: #926aa6;
+  --minty: #00a170;
+  --coral: #e9897e;
+  --blue: #0072b5;
+  --biscay-green: #56c6a9;
+  --deep-purple: #363945;
+  --lilla-grey: #939597;
+  --creme: #efe1ce;
+  --ultragreen: #006b54;
+  --magenta: #6c244c;
+
+  --moss: #616247;
+  --soft-pink: #e8b5ce;
+  --purple: #343148;
+  --beige: #d2c29d;
+  --brown-purple: #615550;
+  --warm-white: #f0ead6;
+  --eden-green: #264e36;
+  --olive-green: #797b3a;
+  --smokey-blue: #2a293e;
+
+  --forest: #46554f;
+  --sierra-tan: #987563;
+  --field-green:#575c45;
+  --sea-grey:	#4b4c50;
+  --medium-green: #635d41;
+  --teal-blue: #002d30;
+  --aircraft-black: #383839;
+  --light-grey: #acaca4;
+
+
+
+}

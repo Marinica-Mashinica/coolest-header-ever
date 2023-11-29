@@ -1,13 +1,16 @@
-gsap.registerPlugin(ScrollTrigger);
+// Sticky header:
+let header = document.querySelector("#header");
 
-var tl = gsap.timeline({
-    scrollTrigger: {
-        trigger: ".main-header",
-        pin: true,
-        scrub: 2,
-        start: "top top",
-        end: "50%+=500px",
-    },
+header.classList.toggle("sticky", window.scrollY > 100);
+
+// Text-replacing animation:
+gsap.registerPlugin(TextPlugin);
+
+//replaces yourElement's text with "This is the new text" over the course of 2 seconds
+let replaceText = document.querySelector("#replace-text");
+gsap.to(replaceText, {
+    duration: 6,
+    text: "JavaScript",
+    ease: "none",
+    delay: 4,
 });
-tl.to(".header-background-back", { scale: 1 }, 0);
-tl.to(".header-background-front", { opacity: 0 }, 0);
